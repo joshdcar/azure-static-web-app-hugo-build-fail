@@ -10,22 +10,6 @@ disqusShortname = ""
 [outputs]
   home = ["HTML", "RSS", "JSON"]
   
-#################### default parameters ################################
-[params]
- logo = "images/logo.png"
- home = "Home"
- # Meta data
- description = "This is meta description"
- author = "Themefisher"
- # Google Analitycs
- googleAnalitycsID = "Your ID"
- # Contact Information
- mobile = "0124857985320"
- email = "demo@email.com"
- location = "Dhaka, Bangladedsh" 
- # copyright
- copyright = "| copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved |"
-
 ############################# Plugins ##############################
 [params.plugins]
 
@@ -54,6 +38,22 @@ disqusShortname = ""
   URL = "plugins/search/mark.js"
   [[params.plugins.js]]
   URL = "plugins/search/search.js"
+  
+#################### default parameters ################################
+[params]
+ logo = "images/logo.png"
+ home = "Home"
+ # Meta data
+ description = "This is meta description"
+ author = "Themefisher"
+ # Google Analitycs
+ googleAnalitycsID = "Your ID"
+ # Contact Information
+ mobile = "0124857985320"
+ email = "demo@email.com"
+ location = "Dhaka, Bangladedsh" 
+ # copyright
+ copyright = "| copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved |"
 
 # Preloader
 [params.preloader]
